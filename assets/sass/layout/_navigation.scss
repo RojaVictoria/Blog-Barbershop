@@ -1,0 +1,20 @@
+/* Navigation Layout */
+.navbar {
+    background-color: $eerie-black;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 8em;
+    padding-right: 8em;
+
+    &__logo {
+        width: 78px;   
+    }
+
+    .nav-link {
+        color: $white !important;
+    }
+
+    .active {
+        color: $ruddy-pink !important;
+    }
+}

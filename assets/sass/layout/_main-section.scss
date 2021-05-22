@@ -1,0 +1,16 @@
+/* Header Layout */
+.blog {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: $nickel;
+    line-height: 2;
+    p {
+        font-size: $medium;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    h3 {
+        font-size: $large;
+    }
+}

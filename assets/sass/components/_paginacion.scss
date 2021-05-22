@@ -1,0 +1,36 @@
+/* Paginacion component */
+.paginacion {
+    background-color: $platinum;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.page-item {
+    &.active .page-link {
+      background-color: $nickel;
+      border-color: $nickel;
+    }
+    
+}
+
+.page-link {
+    color: $eerie-black;
+
+    &:hover {
+        color: $white;
+        text-decoration: none;
+        background-color: $raisin-black;
+        border-color: $raisin-black;
+    }
+}

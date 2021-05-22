@@ -1,0 +1,12 @@
+/* Base Typography*/
+h1, h2, h3 {
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $medium;
+}    
+
+h4, h5, h6, p, a {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $medium;
+}    

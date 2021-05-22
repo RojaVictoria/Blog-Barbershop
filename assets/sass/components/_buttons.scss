@@ -1,0 +1,15 @@
+/* Buttons component */
+.btn {
+    font-family: $roboto;
+    font-size: $medium;
+    color: $white;
+    background-color: $nickel;
+    border-radius: 25px;
+    padding: 12px;
+  
+    @include hover() {
+      color: $white;
+      background-color: $raisin-black;
+    }
+
+}

@@ -1,0 +1,11 @@
+/* Footer Layout */
+.footer {
+    background-color: $eerie-black;
+    padding: 2rem;
+}
+.logo {
+    text-align: center;
+    &__image {
+        width: 122px;
+    }
+}

@@ -1,0 +1,40 @@
+/* Footer Layout */
+.autor {
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+    &__img {
+        border-radius: 50%;
+        margin-top: -1em;
+    }
+
+    &__coldos {
+        margin-left: 2em;
+        margin-right: -4em;
+    }
+
+    h2 {
+        color: $eerie-black;
+        font-weight: $black-italic;
+        font-size: $x-large;
+        font-style: italic;
+    }
+
+    a {
+        color: $ruddy-pink;
+        font-weight: $light;
+        font-size: $large;
+    }
+
+    p {
+        color: $nickel;
+        font-weight: $regular;
+        font-size: $small;
+        line-height: 2;
+    }
+}
+
+hr {
+    border-top: 2px solid;
+    color: $platinum;
+}

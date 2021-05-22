@@ -1,0 +1,17 @@
+/* Header Layout */
+.hero-section {
+    background-image: url(../../../assets/img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    &__titulo {
+        color: $white;
+        font-weight: $black-italic;
+        font-size:7vw;
+        font-style: italic;
+        text-align: center;
+        align-items: center;
+        justify-content: center; 
+        padding: 1.5em;
+    }
+}
